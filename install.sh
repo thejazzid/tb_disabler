@@ -8,3 +8,4 @@ chmod 700 /Users/Shared/scripts/load_tb_disabler.sh
 chown root:wheel /Users/Shared/scripts/load_tb_disabler.sh
 cp com.tbdisabler.thejazzid.plist /Library/LaunchDaemons
 chown root:wheel /Library/LaunchDaemons/com.tbdisabler.thejazzid.plist
+launchctl load /Library/LaunchDaemons/com.tbdisabler.thejazzid.plist
