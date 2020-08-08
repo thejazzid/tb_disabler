@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+unzip TurboBoostSwitcher.app.zip
 cp -r TurboBoostSwitcher.app/Contents/Resources/DisableTurboBoost.64bits.kext /Library/Extensions
 chown -R root:wheel /Library/Extensions/DisableTurboBoost.64bits.kext
 mkdir -p /Users/Shared/scripts
